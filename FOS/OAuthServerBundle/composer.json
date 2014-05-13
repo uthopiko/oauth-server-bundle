@@ -1,0 +1,33 @@
+{
+    "name": "friendsofsymfony/oauth-server-bundle",
+    "type": "symfony-bundle",
+    "description": "Symfony2 OAuth Server Bundle",
+    "keywords": ["oauth", "oauth2", "server"],
+    "homepage": "http://friendsofsymfony.github.com",
+    "authors": [
+        {
+          "name": "Arnaud Le Blanc",
+          "email": "arnaud.lb@gmail.com"
+        },
+        {
+            "name": "FriendsOfSymfony Community",
+            "homepage": "https://github.com/FriendsOfSymfony/FOSOAuthServerBundle/contributors"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "friendsofsymfony/oauth2-php": "1.0.*",
+        "symfony/framework-bundle": "2.0.*",
+        "symfony/security-bundle": "2.0.*"
+    },
+    "suggest": {
+        "doctrine/doctrine-bundle": "2.0.*",
+        "doctrine/mongodb-odm-bundle": "2.0.*",
+        "propel/propel-bundle": "*",
+        "willdurand/propel-typehintable-behavior": "*"
+    },
+    "autoload": {
+        "psr-0": { "FOS\\OAuthServerBundle": "" }
+    },
+    "target-dir": "FOS/OAuthServerBundle"
+}
